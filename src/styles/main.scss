@@ -13,6 +13,12 @@
     background-image: url(../media/fundo.jpg);
     background-size: cover;
     background-position: center;
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 20px;
+    }
+        
     }
 
 .convite {
@@ -53,9 +59,12 @@
     &__components {
         display: flex;
         flex-direction: column;
-        width: 400px;
         gap: 15px;
         
+        @media (max-width: 748px) {
+            max-width: 80%;
+        }
+
         input {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -75,4 +84,5 @@
             }
         }
     }
+
 }
