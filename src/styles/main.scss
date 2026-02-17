@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../media/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+.convite {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    &__title {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        font-size: 1.2em;
+        color: #666;
+        margin-bottom: 5px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    &__title {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    &__components {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        gap: 15px;
+        
+        input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}

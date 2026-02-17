@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./styles/main.scss">
+</head>
+<body>
+    <div class="container">
+        <div class="convite">
+            <h1 class="convite__title">Convite de Aniversário</h1>
+            <p class="convite__description">Fico muito feliz em convidá-lo para o meu aniversário!</p>
+            <p class="convite__description">Faltam <span id="contador"></span> guarde essa data!</p>
+            <p class="convite__description">R. Álvares Florence, 231 - Butantã, São Paulo - SP, 05502-060</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="form" data-aos="fade-up">
+            <h1 class="form__title">Confirme sua presença</h1>
+            <form class="form__components" >
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="tel" name="phone" placeholder="Telefone" required>
+                <button class="form__components__button" type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
