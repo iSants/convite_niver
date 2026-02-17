@@ -15,7 +15,6 @@
     "parcel": "^2.16.4",
     "sharp": "^0.33.5"
   },
-
   "dependencies": {
     "ansi-styles": "^4.3.0",
     "base-x": "^3.0.11",
@@ -44,8 +43,6 @@
     "is-extglob": "^2.1.1",
     "is-glob": "^4.0.3",
     "json5": "^2.2.3",
-    "lightningcss": "^1.31.1",
-    "lightningcss-win32-x64-msvc": "^1.31.1",
     "lmdb": "^2.8.5",
     "msgpackr": "^1.11.8",
     "msgpackr-extract": "^3.0.3",
